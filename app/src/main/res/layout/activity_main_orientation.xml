@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainOrientationActivity">
+
+    <Button
+        android:id="@+id/button_destroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="54dp"
+        android:onClick="playSoundDestroy"
+        android:text="Destroy" />
+
+    <Button
+        android:id="@+id/button_gun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:onClick="playSoundGun"
+        android:text="Gun" />
+    <FrameLayout
+        android:id="@+id/graphics_holder"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"></FrameLayout>
+</LinearLayout>
